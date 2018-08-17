@@ -1,0 +1,45 @@
+body {
+	color: #424242;
+	text-align: center;
+}
+
+.content {
+	margin-top: 6rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+	border-bottom: 2px solid #d8d8d8;
+	border: none;
+	font-size: 36px;
+	text-align: center;
+    background: transparent;
+    width: 140px;
+}
+
+input[type=number]:focus {
+	border-bottom: 2px solid #B2316D;
+    outline: none;
+}
+
+.label-minute::before {
+	content: ":";
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0 8px;
+}
+
+.error {
+	color: #FB2B12;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 8rem;
+}
